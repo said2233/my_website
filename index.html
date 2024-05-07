@@ -278,10 +278,10 @@
                     <div class="skill mb-4">
                         <div class="d-flex justify-content-between">
                             <h6 class="font-weight-bold">Machine learning</h6>
-                            <h6 class="font-weight-bold">15%</h6>
+                            <h6 class="font-weight-bold">45%</h6>
                         </div>
                         <div class="progress">
-                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="15" aria-valuemin="0"
+                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="45" aria-valuemin="0"
                                 aria-valuemax="100"></div>
                         </div>
                     </div>
@@ -708,9 +708,14 @@
                 <span class="px-3">|</span>
                 <a class="text-white" href="#">Help</a>
             </div>
-            <p class="m-0">&copy; <a class="text-white font-weight-bold" href="#">SSH</a>. All Rights Reserved.
-                Designed by <a class="text-white font-weight-bold" href="">SSH Developer.</a>
-            </p>
+            <p>&copy; <span id="currentYear"></span> <a class="text-white font-weight-bold" href="#">SSH</a>. All Rights
+                Reserved.
+                Designed by <a class="text-white font-weight-bold" href="">SSH Developer.</a></p>
+            <script>
+                document.getElementById("currentYear").innerText = new Date().getFullYear();
+            </script>
+
+
         </div>
     </div>
     <!-- Footer End -->
